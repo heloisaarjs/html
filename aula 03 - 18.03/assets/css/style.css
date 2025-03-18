@@ -1,0 +1,41 @@
+/* sintaxe: seletor {propriedade: valor;
+                     propriedade:valor;}
+seletor:
+universal
+h1 de elementos
+#id de id
+classe    */
+
+*{margin: 0 auto;
+  padding:0;}
+
+  h1{text-align: center;
+    color:green ;
+    background-color: greenyellow;}
+
+.FonteGoogle{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: 900;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 200;
+  }
+
+  .cor{color:orange}
+
+#subtitulo{text-align: center;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-style: normal;
+           font-weight: 500;}
+
+#parteUm{border-style: solid;
+  /*color:black;
+  border-width: 5px;*/
+  border: dotted red 5px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: lightcyan;
+  width: 50%;
+}
