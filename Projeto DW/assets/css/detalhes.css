@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #F1F0E9;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #41644A;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #0D4715;
+  font-weight: 600;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: #E9762B;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c75d1a;
+}
+
+/* Navegação */
+nav.menu {
+  background-color: #0D4715;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: fixed;
+  width: 90%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu ul li {
+  margin: 0 15px;
+}
+
+nav.menu ul li a {
+  color: #F1F0E9;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+nav.menu ul li a:hover {
+  color: #E9762B;
+}
+
+/* Barra de pesquisa */
+.search-form {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.search-form input[type="text"] {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.search-form button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #E9762B;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+  transition: background 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #E9762B;
+}
+
+footer {
+  text-align: center;
+  background-color: #0D4715;
+  color: #F1F0E9;
+  padding: 20px;
+  margin-top: 40px;
+}

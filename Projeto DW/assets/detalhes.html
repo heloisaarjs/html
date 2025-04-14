@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes - Disco Vibes</title>
+  <link rel="stylesheet" href="css/detalhes.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="text-center p-4 bg-light">
+    <h2 id="titulo-disco"></h2>
+  </header>
+
+  <main class="container mt-4">
+    <div class="row">
+      <!-- Carrossel -->
+      <div class="col-md-6 mb-4">
+        <div id="carouselDisco" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="imagem-disco" src="" class="d-block w-100" alt="Capa do disco">
+            </div>
+            <div class="carousel-item">
+              <img id="imagem-contracapa" src="" class="d-block w-100" alt="Contracapa do disco">
+            </div>
+            <div class="carousel-item">
+              <img id="imagem-vinil" src="" class="d-block w-100" alt="Vinil do disco">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDisco" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDisco" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Informações -->
+      <div class="col-md-6">
+        <h2>Sobre o Disco</h2>
+        <p><strong>Gênero: </strong> Pop/Indie</p>
+        <p><strong>Ano:</strong>2022</p>
+        <p><strong>Preço:</strong>122,11</p>
+        <p><strong>Descrição:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. A impedit est dolor ad, molestiae error sed, iste voluptatum incidunt aspernatur assumenda laboriosam possimus delectus maiores dicta adipisci facilis exercitationem explicabo.
+        Dolorum voluptas quisquam eos quaerat. Explicabo placeat autem, quaerat quo suscipit nam beatae soluta ad deleniti est sequi recusandae aspernatur impedit nemo, quisquam accusamus optio ipsam fuga adipisci nobis blanditiis!</p>
+
+        <h3>Faixas:</h3>
+        <ul id="faixas">
+        <a href="catalogo.html" class="btn btn-warning mt-3">Voltar ao Catálogo</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-3 bg-light">
+    <p>&copy; 2025 Disco Vibes</p>
+  </footer>
+
+  <script src="js/detalhes.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
