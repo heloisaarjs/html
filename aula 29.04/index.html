@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Mascaras</h3>
+    <form action="#">
+        <label for ="">Cep:</label>
+        <input type="text" name="" id="cep" maxlenght="9" oninput="mascaraCep(this)">
+        <br><br>
+        <label for="">CPF: </label>
+        <input type="text" name="" id="cpf" maxlenght="14" oninput="mascaraCpf(this)">
+    <br><br>
+    <label for ="">Senha:</label>
+        <input type="password" name="" id="senha">
+        <label for ="">Confirma senha:</label>
+        <input type="password" name="" id="confirmaSenha" onblur="comparaSenhas()"> 
+    </form>
+    <script src="assets/js/validacao.js"></script>
+</body>
+</html>
